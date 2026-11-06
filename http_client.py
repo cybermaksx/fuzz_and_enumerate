@@ -1,3 +1,5 @@
-import http
-import os
-#Curl requests , cookie handling and etc
+import requests
+
+def get_response(target):
+    response = requests.get("https://google.com")
+    print(response)
